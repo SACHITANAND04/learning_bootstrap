@@ -14,9 +14,14 @@
             border:2px solid white;
 
         }
+        .card:hover{
+        background-color:grey;
+        color: white;
+        }
+       
      </style>
-</head>
-<body>
+    </head>
+     <body>
     <!-- Header Start -->
     <header>
         <nav class="navbar navbar-expand-lg bg-brown" data-bs-theme="dark">
@@ -66,7 +71,7 @@
 
     <!-- Header End -->
     <main>
-        <section class="mt-4 bg-dark">
+        <section class=" bg-dark">
             <div class="container pb-4">
               <div class="row">
                 <h2 class="text-white p-4">Our Products</h2>
@@ -76,6 +81,9 @@
                       <div class="card-body">
                        <h5 class="card-title">Plant Variety</h5>
                       <p class="card-text">Fresh and healthy young plants, carefully grown in pots.Perfect for adding greenery to homes, gardens, and balconies nursery plant is naturally grown not an artificially🌱</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Plantvariety">
+                      More Infoo..
+                      </button>
                  
                       </div>
                           </div>
@@ -87,6 +95,9 @@
                    <h5 class="card-title">greenhouse</h5>
                      <p class="card-text">This is a greenhouse/conservatory filled with tropical plants.
                           The prominent plant appears to be a palm (likely a Kentia or similar indoor palm).</p>
+                             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#GreenHouse">
+                      More Infoo..
+                      </button>
                   
                 </div>
                 </div>
@@ -96,8 +107,10 @@
                   <img src="images/plant rectangle4.jpg" class="card-img-top" alt="Nursery">
                  <div class="card-body">
                  <h5 class="card-title">Nursery</h5>
-                  <p class="card-text">This is a greenhouse/conservatory filled with tropical plants.
-                          The prominent plant appears to be a palm (likely a Kentia or similar indoor palm)</p>
+                  <p class="card-text">nursery is a place where young and healthy plants are grown and carefully maintained.nursery plant grown in gardens and balconies indoor and outdoon gardens etx</p>
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Nursery">
+                      More Infoo..
+                      </button>
                 
                      </div>
                  </div>
@@ -107,15 +120,146 @@
                   <img src="images/plant rectangle6.jpg" class="card-img-top" alt="Flowers Pots">
                  <div class="card-body">
                  <h5 class="card-title">Flowers Pot</h5>
-                  <p class="card-text">This is a greenhouse/conservatory filled with tropical plants.
-                          The prominent plant appears to be a palm (likely a Kentia or similar indoor palm)</p>
+                  <p class="card-text">Flowering pots are beautiful containers designed for growing colorful and attractive flowering plants. They add a fresh.decorate the house outdoor and god pooja.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#FloweringPot">
+                      More Infoo..
+                      </button>
                 
                    </div>
                 </div>
               </div>
             </div>
           </section>
+
+         <!-- Plant Variety Model Start -->
+          <div class="modal fade" id="Plantvariety" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+           <div class="modal-content">
+                <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Plant Variety</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/plant rectangle2.webp" class="img-fluid" alt="plant variety">
+                </div>
+                <div class="col-md-6">
+                  <h2>About Plant Variety</h2>
+                  <p>Our Plant Variety collection offers a wide range of fresh, healthy, and naturally grown plants for homes, gardens, balconies, and offices. We provide different types of indoor, outdoor, flowering, and decorative plants. Each plant is carefully grown and maintained to ensure good quality, healthy growth, and a beautiful appearance.</p>
+                  <p>Our plant varieties are selected to bring freshness, beauty, and a natural touch to every space. From easy-care plants for beginners to attractive flowering and decorative plants, our collection has something for everyone. With proper sunlight, watering, and care, these plants can grow beautifully and create a healthy and pleasant environment.</p>
+                  <button type="button" class="btn btn-primary">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+             </div>
+           </div>
+           </div>
+        </div>
+           <!-- Plant Variety Model End -->
+
+              <!-- GreenHouse Model Start -->
+          <div class="modal fade" id="GreenHouse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+           <div class="modal-content">
+                <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Plant Variety</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/plant rectangle 3.jpg" class="img-fluid" alt="GreenHouse">
+                </div>
+                <div class="col-md-6">
+                  <h2>About Greenhouse</h2>
+                  <p>A greenhouse is a specially designed structure that provides a controlled environment for growing plants. It protects plants from extreme weather conditions and helps maintain suitable temperature, humidity, and light. Greenhouses are ideal for growing flowers, vegetables, herbs, and ornamental plants throughout the year.</p>
+                  <p>Our greenhouse provides a healthy and suitable environment where plants can grow safely and beautifully. Proper care, watering, sunlight, and ventilation help plants develop strong roots and healthy leaves</p>
+                  <button type="button" class="btn btn-primary">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+             </div>
+           </div>
+           </div>
+        </div>
+           <!--GreenHouse Model End -->
+
+               <!-- Nursery Model Start -->
+          <div class="modal fade" id="Nursery" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+           <div class="modal-content">
+                <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Plant Variety</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/plant rectangle4.jpg" class="img-fluid" alt="Nursery">
+                </div>
+                <div class="col-md-6">
+                  <h2>About Nursery</h2>
+                  <p>A nursery is a place where different types of plants are grown, cared for, and prepared for sale or planting. It provides a suitable environment for young plants to develop strong roots and healthy growth. Nurseries offer a wide variety of indoor, outdoor, flowering, and decorative plants for homes, gardens, offices, and balconies</p>
+                  <p>Our nursery focuses on providing fresh, healthy, and naturally grown plants. Each plant is carefully watered, maintained, and protected to ensure good quality. We help customers choose the right plants according to their space and requirements</p>
+                  <button type="button" class="btn btn-primary">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+             </div>
+           </div>
+           </div>
+        </div>
+           <!--Nursery Model End -->
+
+             <!-- Flowering Pot Model Start -->
+          <div class="modal fade" id="FloweringPot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable modal-xl ">
+           <div class="modal-content">
+                <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Plant Variety</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="images/plant rectangle6.jpg" class="img-fluid" alt="Flowers Pot">
+                </div>
+                <div class="col-md-6">
+                  <h2>About Flowering Pot</h2>
+                  <p>Flowering pots are a beautiful way to grow and display colorful flowering plants in homes, gardens, balconies, and offices. They come in different sizes, shapes, and designs to suit various plants and spaces. With proper sunlight, regular watering, and good soil, flowering plants can grow healthy and produce beautiful blooms. Flowering pots not only make the surroundings attractive but also add freshness and a natural touch to any place</p>
+                  <p>Flowering pots add color and beauty to any space. They are perfect for growing attractive flowers at home, gardens, balconies, and offices.</p>
+                  <button type="button" class="btn btn-primary">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+             </div>
+           </div>
+           </div>
+        </div>
+           <!--Flowering Pot Model End -->
     </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
